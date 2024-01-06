@@ -1,0 +1,16 @@
+{
+    "slides": [
+      {
+        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHllVcNXigU-Bzw1EfIWtaQrxJzsbn5DB2QA&usqp=CAU",
+        "alt": "Image 1 for carousel"
+      },
+      {
+        "src": "https://picsum.photos/seed/img2/600/400",
+        "alt": "Image 2 for carousel"
+      },
+      {
+        "src": "https://picsum.photos/seed/img3/600/400",
+        "alt": "Image 3 for carousel"
+      }
+    ]
+  }
