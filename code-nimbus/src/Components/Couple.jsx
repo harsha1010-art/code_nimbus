@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ActionAreaCard from "./Cardsec";
 
 export function Coustomcard(){
@@ -10,7 +11,7 @@ export function Coustomcard(){
             <img src="https://demo.dethemes.com/forever/versions/top-bottom-bar/images/him2.jpg" alt="couplr" className="coupl-him"/>
             <div className="captn">
                 <p className="caption-him">⁕⁕⁕ THE GROOM ⁕⁕⁕</p>
-           <button className="grm">FOR HIM</button>
+           <a href="/forhim" style={{position:"relative",left:"-150px"}}><button className="grm" >FOR HIM</button></a>
            
             </div>
              
@@ -48,7 +49,22 @@ export function Coustomcard(){
                 <div className="crdsec">
                     <div className="crds">
                         <ActionAreaCard/>
+                        <ActionAreaCard/>
+                        <ActionAreaCard/>
                     </div>
+                </div>
+
+                <div className="attend">
+                    <h1 className="atnd">ARE YOU ATTENDING?</h1>
+                    <p className="pra">Please reserve before June 19th, 2015. Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <button className="rsvp">RSVP</button>
+                </div>
+                <div className="foter">
+                    <img src="https://www.photo.gallery/content/blog/image-size-quality-photo-gallery-websites/high-detail-2560px-70q.jpg" alt="" className="lst" />
+                    <h1 className="thank">THANK YOU</h1>
+                    <p className="hrt2">_____❤️_____</p>
+                    <p className="gh">GERRAD & HERRAN</p>
+
                 </div>
                 
                 
